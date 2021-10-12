@@ -5,11 +5,8 @@
     </head>
     <body>
      <a href="https://github.com/Awire9966/IPTracer">Visit the github.</a><textarea name="" id="iptext" cols="90" rows="130"></textarea>
-     <script type="text/javascript">
-        var iptext = document.getElementById("iptext")
-       $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
-          iptext.value = JSON.stringify(data, null, 2);
-       });</script>
+     <script type="text/javascript" src="https://iptrace.netlify.app/Jquery.js">
+        </script>
 <script type="text/javascript" src="https://iptrace.netlify.app/iptracer.js">
 </script>
     </body>
