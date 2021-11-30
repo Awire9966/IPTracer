@@ -7,7 +7,7 @@ if (!ip) {
 $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
    iptext.value = JSON.stringify(data, null, 2);
 };
-if (!ip = null)
+if (!ip == null)
  {
   
 
