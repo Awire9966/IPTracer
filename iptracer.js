@@ -1,7 +1,7 @@
 
  var iptext = document.getElementById("iptext");
      var ip = document.getElementById("ip").value;
-if (ip == null) {      
+if (!ip) {      
 
 
 $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
